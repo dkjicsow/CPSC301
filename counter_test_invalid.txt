@@ -1,0 +1,28 @@
+> This line looks like the header of a FASTA file. 
+TTTTGGGCCACGT
+AAAACCCGGTGCA
+ZGGGTTTAACATG
+CCCCAAATTGTAC
+> This line causes readFasta() to give up, since it looks like another sequence.
+
+This file is designed to both drive doctest.testfile() and provide an input
+file when testing dna_counter.py.
+
+It is designed to be used with doctest.testfile(), which treats this
+whole file as essentially a giant docstring.  Therefore it ignores lines
+like these ones (including that DNA sequence above), and looks for lines that 
+start with the Python interpreter prompt.
+
+Created by Ian Mitchell 
+
+First we need to make sure the function is available:
+
+>>> from improved_counter import readFasta, count_dna
+
+Now we can run the test using this file as an input:
+
+>>> count_dna(readFasta('counter_test_invalid.txt'))
+Reading sequence:  This line looks like the header of a FASTA file.
+Warning: Multiple sequences encountered; only the first is returned.
+Invalid base encountered: Z
+False
