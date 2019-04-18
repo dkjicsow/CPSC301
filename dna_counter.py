@@ -15,6 +15,7 @@ that was found in the sequence.
 # Further modified by Jay Zhang, January 2011.
 # Further modified by Ian Mitchell, January 2014 to convert into functions.
 # Validated by J. Jim Oct 2018
+# Modified by: alireza
 
 def readFasta(filename):
   """(string) -> string
