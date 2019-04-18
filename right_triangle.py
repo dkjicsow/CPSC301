@@ -9,7 +9,7 @@ find_other_angle(), find_hypotenuse(), find_opposite() and describe_triangle().
 
 @author: Ian Mitchell
 
-Lab04 for Ambrose Lai (37637148) and Alireza Ameri (15353162)
+Modified by: alireza
 """
 from math import cos
 from math import sqrt
