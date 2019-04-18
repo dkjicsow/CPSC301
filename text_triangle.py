@@ -3,6 +3,8 @@
 @author: mitchell
 
 Updated by : tsiknis, dawson, j. jim
+
+Modified by: alireza
 """
 
 def text_triangle(height):
