@@ -4,6 +4,8 @@ Created on Sun Mar 09 15:14:14 2014
 
 @author: mitchell
 
+Modified by: alireza
+
 Created for CPSC 301 2013W2 Lab 08.
 
 This file has some simple functions for reading and writing CSV files.
