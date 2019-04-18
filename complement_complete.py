@@ -2,7 +2,7 @@
 """
 @author: mitchell
 
-Modified by: tsiknis
+Modified by: alireza
 """
 
 from Bio.Seq import Seq
