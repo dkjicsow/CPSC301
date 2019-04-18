@@ -10,6 +10,7 @@ Updated by Oliver Zhang on Jan 23, 2017
 Updated by J. Jim on Jan 15, 2018
   - updated numbers to reflect Revenue Canada latest data
 Checked by J. Jim on Sept 23, 2018
+Modified by: alireza
 """
 
 def not_death(foo):
