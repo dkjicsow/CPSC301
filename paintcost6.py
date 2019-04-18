@@ -14,6 +14,7 @@
 # ***** Return 0 if any of the arguments is 0 or negative.
 # ***** Add the ceiling area to the room's wall area
 # Updated:  J. Jim Sept 2018 for 2018W1
+# Modified by: alireza
 
 def wall_area(length, width, height):
     ''' 
