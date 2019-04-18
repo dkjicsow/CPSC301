@@ -8,6 +8,8 @@ Created for CPSC 301 2013W2, Lab 05
 
 Verified by Jim for CSPC 301 2018W1
 
+Modified by: alireza
+
 """
 
 def replicate_dna(in_strand):
